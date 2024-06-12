@@ -1,6 +1,9 @@
 .header-center{
     display: grid;
     justify-content: center;
+    background: radial-gradient(61.98% 141.82% at 0% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1000;
+
 }
 
 
@@ -9,9 +12,11 @@
     grid-auto-flow: column;
     column-gap: 1000px;
     justify-content: center;
+    align-items: center;
     max-width: fit-content;
     border-bottom: 1px solid #CBECFD;
     padding: 24px 0px 24px 0px;
+    
 }
 
 .touch-button > button{
