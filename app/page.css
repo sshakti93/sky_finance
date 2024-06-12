@@ -1,0 +1,131 @@
+.first-section {
+  display: grid;
+  grid-auto-flow: row;
+
+}
+
+.text-grp{
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.text-grp > div{
+  margin: 0px;
+  padding: 0;
+}
+
+.welcome-text{
+  width: fit-content;
+    border-top: 1px solid #89CFF3;
+    border-bottom: 1px solid #89CFF3;
+    line-height: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color:  #00A9FF;
+
+
+}
+
+.fullstop-quote{
+  color: #00A9FF;
+
+}
+.quote-text{
+  font-weight: 700;
+    font-size: 64px;
+    color: #333333;
+
+}
+
+.text-desc{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #777777;
+}
+
+.touch-text{
+  font-weight: 600;
+  font-size: 14px;
+  color:  #00A9FF;
+}
+
+.getInTouch{
+  justify-content: flex-start;
+  display: grid;
+  align-items: center;
+  column-gap: 10px;
+  grid-auto-flow: column;
+}
+
+.touch-arrow{
+  display: grid;
+  padding: 2px;
+}
+
+
+
+.second-section-top{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+}
+.who-title{
+  font-weight:700 ;
+  font-size: 40px;
+}
+
+.first-card{
+  display: grid;
+  grid-auto-flow: row;
+  width: 400px;
+  height: 586px;
+  padding: 25px;
+  border: 1px solid #00A9FF;
+  border-radius: 10px;
+}
+
+.second-section-bottom{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+.card-defn{
+  color: #777777;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.42px;
+}
+
+.card-title{
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+  line-height: 22px;
+}
+
+.card-desc{
+  
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+color: #777777;
+
+}
+
+.second-card{
+  display: grid;
+  grid-auto-flow: row;
+  height: 496px;
+  width: 400px;
+  padding: 25px;
+  border: 1px solid #00A9FF;
+  border-radius: 10px;
+
+}
+
+.card-img{
+  padding-bottom: 20px;
+}
