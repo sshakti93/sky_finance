@@ -1,0 +1,58 @@
+.top-footer{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    column-gap: 56px;
+    align-items: center;
+    padding: 64px 80px 64px 80px;
+    border-top: 1px solid #00A9FF;
+}
+
+
+.connections{
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 5px;
+    color:  #777777;
+}
+
+.footer-text{
+    color:  #777777;
+    
+}
+.sky-text-inbtw{
+    color:  #00A9FF;
+
+
+}
+
+.footer-phone{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+    column-gap: 20px;
+}
+
+.footer-mail{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+    column-gap: 20px;
+}
+
+.footer-map{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+    column-gap: 20px;
+
+}
+
+.line-btw{
+    width: 1px;
+    height: 130px;
+    background-color: #CBECFD;
+}
