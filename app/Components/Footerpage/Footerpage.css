@@ -1,3 +1,10 @@
+.full-footer{
+    display: grid;
+    grid-auto-flow: row;
+    font-family: worksans, sans-serif;
+}
+
+
 .top-footer{
     display: grid;
     grid-auto-flow: column;
@@ -6,6 +13,7 @@
     align-items: center;
     padding: 64px 80px 64px 80px;
     border-top: 1px solid #00A9FF;
+    margin-top: 50px;
 }
 
 
@@ -55,4 +63,27 @@
     width: 1px;
     height: 130px;
     background-color: #CBECFD;
+}
+
+.bottom-footer{
+    display: grid;
+    background-color: #00A9FF;
+    grid-auto-flow: column;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    color: #CBEDFF;
+    column-gap: 530px;
+
+}
+
+.left-bottom{
+    display: grid;
+
+}
+
+.right-bottom{
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
 }

@@ -4,7 +4,7 @@ import { styleText } from 'util'
 import "./Footerpage.css"
 export default function Footerpage() {
   return (
-    <div>
+    <div className='full-footer'>
         <div className="top-footer">
             <div className="footer-logo">
                 <Image src={"/images/footerlogo.svg"} alt='' width={90} height={108}/>
@@ -44,6 +44,17 @@ export default function Footerpage() {
                         <p>455 E Maple Rd Troy, Michigan 48083, USA.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+
+
+        <div className="bottom-footer">
+            <div className="left-bottom">
+                <p>&copy; 2024 SKY FINANCIAL, New York, NY. All Rights Reserved.</p>
+            </div>
+            <div className="right-bottom">
+                <p>Terms of use</p>
+                <p>Privacy & Other policies</p>
             </div>
         </div>
     </div>
