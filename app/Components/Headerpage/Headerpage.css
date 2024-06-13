@@ -1,8 +1,8 @@
 .header-center{
     display: grid;
     justify-content: center;
-    background: radial-gradient(61.98% 141.82% at 0% 0%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-    z-index: 1000;
+    padding-bottom: 70px;
+    
 
 }
 
