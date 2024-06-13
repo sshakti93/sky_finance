@@ -1,24 +1,47 @@
+.fullpage-main{
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 50px;
+}
+
+
 .first-section {
   display: grid;
   grid-auto-flow: row;
-
+  background-image: url(/images/bgimg.svg);
+  background-size: cover;
+  row-gap: 30px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  
 }
 
-.text-grp{
+
+
+.text-grp-one{
   display: grid;
   grid-auto-flow: row;
+  padding-left: 20px;
+  row-gap: 30px;
 }
 
-.text-grp > div{
-  margin: 0px;
-  padding: 0;
+
+
+.text-grp-two{
+  display: grid;
+  grid-auto-flow: row;
+  padding-left: 20px;
+  max-width: 480px;
+  row-gap: 40px;
 }
+
 
 .welcome-text{
+  font-family: worksans, sans-serif;
   width: fit-content;
     border-top: 1px solid #89CFF3;
     border-bottom: 1px solid #89CFF3;
-    line-height: 0px;
+    line-height: 22px;
     font-size: 14px;
     font-weight: 500;
     color:  #00A9FF;
@@ -26,11 +49,24 @@
 
 }
 
+.top-welcome-text{
+  font-family: worksans, sans-serif;
+  width: fit-content;
+    border-top: 1px solid #89CFF3;
+    border-bottom: 1px solid #89CFF3;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color:  #00A9FF;
+}
+
+
 .fullstop-quote{
   color: #00A9FF;
 
 }
 .quote-text{
+  font-family: robotoserif, serif;
   font-weight: 700;
     font-size: 64px;
     color: #333333;
@@ -38,16 +74,21 @@
 }
 
 .text-desc{
+  font-family: worksans, sans-serif;
+  display: grid;
+  grid-auto-flow: row;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
   color: #777777;
+  row-gap: 20px;
 }
 
 .touch-text{
   font-weight: 600;
   font-size: 14px;
   color:  #00A9FF;
+  font-family: worksans, sans-serif; 
 }
 
 .getInTouch{
@@ -63,8 +104,16 @@
   padding: 2px;
 }
 
-
-
+.top-right{
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+}
+.second-section{
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 30px;
+}
 .second-section-top{
   display: grid;
   grid-auto-flow: column;
@@ -73,6 +122,8 @@
 .who-title{
   font-weight:700 ;
   font-size: 40px;
+  color: #333333;
+  font-family: robotoserif, serif;
 }
 
 .first-card{
@@ -97,6 +148,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 16.42px;
+  font-family: worksans, sans-serif;
 }
 
 .card-title{
@@ -104,6 +156,7 @@
   font-size: 20px;
   color: #333333;
   line-height: 22px;
+  font-family: robotoserif, serif;
 }
 
 .card-desc{
@@ -112,6 +165,7 @@ font-size: 14px;
 font-weight: 500;
 line-height: 18px;
 color: #777777;
+font-family: worksans, sans-serif;
 
 }
 
@@ -128,4 +182,206 @@ color: #777777;
 
 .card-img{
   padding-bottom: 20px;
+}
+
+
+.third-section{
+  display: grid;
+  grid-auto-flow: column;
+  padding: 40px 30px 40px 30px;
+  background-color: 
+  #ECFAFF;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.third-left{
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 10px;
+  width: 552px;
+  height: 220px;
+  align-items: center;
+}
+
+.third-right{
+  display: grid;
+  align-items: center;
+}
+
+.third-quote{
+  font-weight: 700;
+    font-size: 50px;
+    color: #333333;
+    font-family: robotoserif, serif;
+}
+
+.email-box{
+  display: grid;
+  grid-auto-flow: row;
+  border: 1px solid #CBECFD;
+  border-radius: 16px;
+  padding: 20px;
+  width: 688px;
+  height: 360px;
+  align-content: flex-start;
+  row-gap: 40px;
+  background-color: white;
+  font-family: worksans, sans-serif;
+}
+
+
+.email-box:hover{
+  transform: scale(1.03);
+  box-shadow: 1px 1px 1px 1px #00A9FF;
+}
+
+.linebtw{
+  width: 1px;
+  height: 20px;
+  background-color: #AAAAAA;
+}
+
+.mail-section{
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 5px;
+  align-items: center;
+  border: 1px solid #DDDDDD;
+  justify-content: flex-start;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.mail-section input{
+  border: none;
+  outline: none;
+  background: none;
+ 
+  width: 270px;
+  height: 24px;
+}
+
+.name-sub{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.mail-section-msg{
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 5px;
+  align-items: center;
+  border: 1px solid #DDDDDD;
+  justify-content: flex-start;
+  padding: 15px;
+  border-radius: 10px;
+  height: 80px;
+  
+  
+  align-content: flex-end;
+}
+
+.mail-section-msg input{
+  border: none;
+  padding-bottom: 20px;
+  background: none;
+  outline: none;
+  
+}
+
+.getintouch-button{
+  display: grid;
+  justify-content: center;
+  border: 1px solid  #00A9FF;
+  padding:  16px, 24px, 16px, 24px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.getintouch-button button{
+  border: none;
+  outline: none;
+  background-color: white;
+  width: 645px;
+  cursor: pointer;
+  font-family: worksans, sans-serif;
+  border-radius: 10px;
+  color: #00A9FF;
+}
+
+.mail-section-msg input{
+  width: 615px;
+    height: 55px;
+}
+
+
+
+.fourth-section{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly ;
+  height: 748px;  
+}
+
+
+.right-fourth{
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 30px;
+  width: 464px;
+  Height: 780px;
+  text-align: center;
+    justify-items: center;
+}
+
+
+.frequent-text{
+  width: fit-content;
+    border-top: 1px solid #89CFF3;
+    border-bottom: 1px solid #89CFF3;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color:  #00A9FF;
+    font-family: worksans, sans-serif;
+
+}
+
+
+.accordion {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  background-color: white;
+  padding: 0 10px;
 }
