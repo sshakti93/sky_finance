@@ -1,0 +1,67 @@
+.tos-page {
+  display: grid;
+  justify-content: center;
+}
+
+.tos-full {
+  display: grid;
+  grid-auto-flow: row;
+  padding: 00px 50px 00px 50px;
+  row-gap: 25px;
+}
+
+.home-nav {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  column-gap: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.terms-cond {
+  color: #777777;
+}
+
+.home-link {
+  color: #00a9ff;
+}
+
+.tos-desc {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 60px;
+}
+.tos-left {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 30px;
+}
+.grid-tos {
+  display: grid;
+  grid-auto-flow: row;
+  border: 1px solid #cbecfd;
+
+  max-width: 620px;
+  max-height: 180px;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 10px;
+}
+
+.tos-title {
+  font-weight: 700;
+  font-size: 40px;
+
+  color: #333333;
+}
+
+.grid-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+}
+
+.privacy-defn {
+  color: #777777;
+}
