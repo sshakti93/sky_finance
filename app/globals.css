@@ -1,11 +1,16 @@
 *,
 *:before,
 *:after {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-button{
-    font-family: worksans, sans-serif;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sky-inbtw {
+  color: #00a9ff;
 }
