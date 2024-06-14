@@ -2,9 +2,13 @@ import Image from "next/image";
 import "./page.css";
 import Headerpage from "./Components/Headerpage/Headerpage";
 
+
+
 export default function Home() {
   return (
-    <div className="fullpage-main">
+
+   
+        <div className={"fullpage-main"}>
       
       <div className="first-section">
       <Headerpage/>
