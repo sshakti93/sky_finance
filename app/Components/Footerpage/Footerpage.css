@@ -20,7 +20,7 @@
 .connections{
     display: grid;
     grid-auto-flow: row;
-    row-gap: 5px;
+    row-gap: 15px;
     color:  #777777;
 }
 
@@ -87,3 +87,4 @@
     grid-auto-flow: column;
     column-gap: 30px;
 }
+
