@@ -2,6 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import { styleText } from 'util'
 import "./Footerpage.css"
+import Link from 'next/link'
+
+
 export default function Footerpage() {
   return (
     <div className='full-footer'>
@@ -53,8 +56,8 @@ export default function Footerpage() {
                 <p>&copy; 2024 SKY FINANCIAL, New York, NY. All Rights Reserved.</p>
             </div>
             <div className="right-bottom">
-                <p>Terms of use</p>
-                <p>Privacy & Other policies</p>
+                <Link href={'/pages/Tos'}><p>Terms of use</p></Link>
+                <Link href={'/pages/Privacy'}><p>Privacy & Other policies</p></Link>
             </div>
         </div>
     </div>
