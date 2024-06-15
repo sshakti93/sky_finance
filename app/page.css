@@ -87,6 +87,14 @@
   grid-auto-flow: column;
 }
 
+.left-fourth {
+  display: grid;
+  grid-template-rows: auto;
+  max-height: 528px;
+  align-self: center;
+  overflow-y: auto;
+}
+
 .touch-arrow {
   display: grid;
   padding: 2px;
@@ -107,6 +115,15 @@
   grid-auto-flow: column;
   justify-content: space-evenly;
 }
+
+.line-in-flow {
+  width: 1px;
+  height: 50px;
+  background-color: #00a9ff;
+  display: grid;
+  justify-self: center;
+  height: 200px;
+}
 .who-title {
   font-weight: 700;
   font-size: 40px;
@@ -122,6 +139,30 @@
   padding: 25px;
   border: 1px solid #00a9ff;
   border-radius: 10px;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+/* ON HOVER */
+
+.first-card:hover,
+.second-card:hover {
+  background-color: #00a9ff;
+  color: white;
+}
+
+/* for the paras and headings */
+
+.first-card:hover p,
+.second-card:hover p {
+  color: white;
+}
+
+/* for the images */
+
+.first-card:hover img,
+.second-card:hover img {
+  filter: brightness(0) invert(1);
 }
 
 .second-section-bottom {
@@ -129,6 +170,13 @@
   grid-auto-flow: column;
   justify-content: space-evenly;
   align-items: end;
+  top: -18px;
+  position: relative;
+}
+
+.second-section-bottom-full {
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .card-defn {
@@ -163,6 +211,8 @@
   padding: 25px;
   border: 1px solid #00a9ff;
   border-radius: 10px;
+  background-color: white;
+  transition: background-color 0.3s ease;
 }
 
 .card-img {
@@ -176,6 +226,17 @@
   background-color: #ecfaff;
   justify-content: space-evenly;
   align-items: baseline;
+}
+
+.flowchart-line {
+  display: grid;
+  width: 940px;
+  height: 80px;
+  border: 1px solid var(--Primary, #00a9ff);
+  justify-self: center;
+  border-bottom: none;
+  border-radius: 5px;
+  z-index: -2;
 }
 
 .third-left {
@@ -211,6 +272,8 @@
   row-gap: 40px;
   background-color: white;
   font-family: worksans, sans-serif;
+  transition: box-shadow 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .email-box:hover {
@@ -265,11 +328,13 @@
   align-content: flex-end;
 }
 
-.mail-section-msg input {
+.mail-section-msg textarea {
   border: none;
   padding-bottom: 20px;
   background: none;
   outline: none;
+  resize: none;
+  width: 610px;
 }
 
 .getintouch-button {
@@ -301,7 +366,7 @@
   display: grid;
   grid-auto-flow: column;
   justify-content: space-evenly;
-  height: 748px;
+  height: 719px;
 }
 
 .right-fourth {
