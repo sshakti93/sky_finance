@@ -51,7 +51,9 @@ export default function ContactForm() {
     <div className={"fullpage-main"}>
       <div className="first-section">
         <Headerpage />
-
+        <div className="media-only-img">
+          <Image src={"/images/mobbg.svg"} alt="" width={360} height={346} />
+        </div>
         <div className="text-grp-one">
           <div className="welcome-text">
             <p>WELCOME TO SKY FINANCIAL</p>
