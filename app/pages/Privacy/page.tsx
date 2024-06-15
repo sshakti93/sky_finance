@@ -29,11 +29,11 @@ export default function page() {
 
         <div className="privacy-defn">
           <p>
-            At <span className="sky-inbtw">SKY FIANCIAL</span>, we are committed
-            to protecting your privacy and ensuring the security of your
-            personal information. This Privacy Policy outlines how we collect,
-            use, and safeguard your data when you visit our website or interact
-            with our services.
+            At <span className="sky-inbtw">SKY FINANCIAL</span>, we are
+            committed to protecting your privacy and ensuring the security of
+            your personal information. This Privacy Policy outlines how we
+            collect, use, and safeguard your data when you visit our website or
+            interact with our services.
           </p>
         </div>
         <div className="tos-desc">
