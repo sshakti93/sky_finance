@@ -424,7 +424,23 @@
   padding: 0 10px;
 }
 
+.media-only-img {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
+  .fullpage-main {
+    width: device-width;
+  }
+
+  .first-section {
+    background-image: none;
+    background-color: #e9f6fd;
+    grid-auto-flow: row;
+    padding: 00px;
+    row-gap: 10px;
+  }
+
   .second-section {
     grid-auto-flow: row;
   }
@@ -437,5 +453,42 @@
   .second-section-bottom {
     display: grid;
     grid-auto-flow: row;
+  }
+
+  .media-only-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .media-only-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .flowchart-line {
+    display: none;
+  }
+  .third-section {
+    grid-auto-flow: row;
+  }
+
+  .fourth-section {
+    width: vw;
+    grid-auto-flow: row;
+    height: auto;
+    grid-template-areas: "section2", "section1";
+    row-gap: 30px;
+  }
+
+  .left-fourth {
+    grid-area: "section1";
+    order: 2;
+  }
+  .right-fourth {
+    grid-area: "section2";
+    order: 1;
   }
 }
