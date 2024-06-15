@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, FC, ReactNode } from "react";
 import "./Accordion.css";
 import Image from "next/image";
