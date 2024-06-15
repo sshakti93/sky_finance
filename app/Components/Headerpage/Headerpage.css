@@ -1,34 +1,35 @@
-.header-center{
-    display: grid;
-    justify-content: center;
-    padding-bottom: 70px;
-    
-
+.header-center {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 70px;
 }
 
-
-.full-header{
-    display: grid;
-    grid-auto-flow: column;
-    column-gap: 1000px;
-    justify-content: center;
-    align-items: center;
-    max-width: fit-content;
-    border-bottom: 1px solid #CBECFD;
-    padding: 24px 0px 24px 0px;
-    
+.full-header {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 1000px;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  border-bottom: 1px solid #cbecfd;
+  padding: 24px 0px 24px 0px;
 }
 
-.touch-button > button{
-    background-color: #00A9FF;
-    border: none;
-    outline: none;
-    width: Hug (134px)px;
-    height: Hug (40px)px;
-    padding: 12px 24px 12px 24px;
-    gap: 10px;
-    border-radius: 10px;
-    opacity: 0px;
-    color:  #FFFFFF;
-    ;
+.touch-button > button {
+  background-color: #00a9ff;
+  border: none;
+  outline: none;
+  width: Hug (134px) px;
+  height: Hug (40px) px;
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .full-header {
+    place-items: center;
+  }
 }
