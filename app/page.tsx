@@ -96,6 +96,14 @@ export default function ContactForm() {
       {/* second section */}
       <div className="second-section">
         <div className="second-section-top">
+          <div className="mobcards">
+            <Image
+              src={"/images/mobcards.svg"}
+              alt=""
+              width={312}
+              height={340}
+            />
+          </div>
           <div className="top-left">
             <Image
               src={"/images/cardspreview.svg"}
@@ -164,30 +172,30 @@ export default function ContactForm() {
               </div>
               <div className="card-desc">
                 <p>
-                  Planning for retirement is a crucial step in<br></br>{" "}
-                  achieving long-term financial security.<br></br> Annuities
-                  offer a reliable way to generate<br></br> guaranteed income
-                  for life, ensuring that you<br></br> can enjoy your retirement
-                  years with
-                  <br></br> confidence.
+                  Planning for retirement is a crucial step in achieving
+                  long-term financial security. Annuities offer a reliable way
+                  to generate guaranteed income for life, ensuring that you can
+                  enjoy your retirement years with confidence.
                 </p>
+                <br></br>
                 <p>
-                  At Sky Financial, we specialize in annuity<br></br> products
-                  tailored to the needs of high net<br></br> worth individuals.
-                  Our exclusive offerings<br></br> provide competitive returns
-                  and tax<br></br> advantages, allowing you to maximize your
-                  <br></br> retirement savings and enjoy a worry-free<br></br>{" "}
-                  future.
+                  At Sky Financial, we specialize in annuity products tailored
+                  to the needs of high net worth individuals. Our exclusive
+                  offerings provide competitive returns and tax advantages,
+                  allowing you to maximize your retirement savings and enjoy a
+                  worry-free future.
                 </p>
+                <br></br>
                 <p>
-                  Whether you're looking for immediate income<br></br> or a
-                  deferred annuity to supplement your<br></br> retirement
-                  savings, our team of experts will<br></br> help you navigate
-                  the options and find the<br></br> right solution for your
-                  needs.
+                  Whether you're looking for immediate income or a deferred
+                  annuity to supplement your retirement savings, our team of
+                  experts will help you navigate the options and find the right
+                  solution for your needs.
                 </p>
               </div>
             </div>
+
+            <div className="linebtwcards"></div>
 
             {/* second card */}
 
@@ -212,19 +220,21 @@ export default function ContactForm() {
                   plans offer robust protection, ensuring you and your family
                   can face life's uncertainties with confidence.
                 </p>
+                <br></br>
                 <p>
                   Whether you're a young family just starting out or a retiree
                   looking to leave a legacy, our experienced agents will work
                   closely with you to understand your needs and goals, and
                   recommend a policy that fits your budget and lifestyle.{" "}
                 </p>
+                <br></br>
                 <p>
                   With Sky Financial, you can rest assured that your loved ones
                   will be taken care of no matter what the future holds.
                 </p>
               </div>
             </div>
-
+            <div className="linebtwcards"></div>
             {/* third card */}
 
             <div className="first-card">
@@ -250,12 +260,14 @@ export default function ContactForm() {
                   paid out to your beneficiaries tax-free, providing them with
                   financial security without the burden of taxes.
                 </p>
+                <br></br>
                 <p>
                   Similarly, annuities offer tax-deferred growth, meaning you
                   won't pay taxes on your earnings until you start receiving
                   income. This allows your retirement savings to grow faster and
                   gives you more control over when you pay taxes.
                 </p>
+                <br></br>
                 <p>
                   At Sky Financial, we can help you take advantage of these tax
                   benefit programs and create a comprehensive financial strategy
@@ -284,10 +296,14 @@ export default function ContactForm() {
           <div className="text-desc">
             <p>
               Contact <span className="sky-text-inbtw">Sky Financial</span>{" "}
-              today to schedule a consultation with one of our<br></br>{" "}
-              experienced agents. We're here to answer your questions, address
-              your<br></br> concerns, and help you find the perfect insurance
-              solutions for your needs.
+              today to schedule a consultation with one of our experienced
+              agents.
+            </p>
+            <p>
+              {" "}
+              <br></br>We're here to answer your questions, address your
+              concerns, and help you find the perfect insurance solutions for
+              your needs.
             </p>
           </div>
         </div>
@@ -555,7 +571,7 @@ export default function ContactForm() {
               coverage options.
             </p>
           </div>
-          <div className="thinkimg">
+          <div className="thinking">
             <Image
               src={"/images/thinkman.svg"}
               alt=""
