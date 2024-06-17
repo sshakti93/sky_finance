@@ -337,6 +337,9 @@
   width: 610px;
 }
 
+.mobcards {
+  display: none;
+}
 .getintouch-button {
   display: grid;
   justify-content: center;
@@ -412,6 +415,10 @@
   transition: background-color 0.3s ease;
 }
 
+.linebtwcards {
+  display: none;
+}
+
 .accordion-header:hover {
   background-color: #ddd;
 }
@@ -430,7 +437,7 @@
 
 @media only screen and (max-width: 600px) {
   .fullpage-main {
-    width: device-width;
+    width: 100vw;
   }
 
   .first-section {
@@ -439,15 +446,19 @@
     grid-auto-flow: row;
     padding: 00px;
     row-gap: 10px;
+    width: 100vw;
   }
 
   .second-section {
     grid-auto-flow: row;
+    width: 100vw;
+    padding-left: 20px;
   }
 
   .second-section-top {
     display: grid;
     grid-auto-flow: row;
+    place-content: flex-start;
   }
 
   .second-section-bottom {
@@ -460,23 +471,29 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    top: 0;
+    position: relative;
   }
 
-  .media-only-img > img {
+  /* .media-only-img > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+  } */
 
   .flowchart-line {
     display: none;
   }
   .third-section {
     grid-auto-flow: row;
+    justify-content: center;
+    width: 100vw;
+    row-gap: 20px;
+    padding-left: 20px;
   }
 
   .fourth-section {
-    width: vw;
+    width: 100vw;
     grid-auto-flow: row;
     height: auto;
     grid-template-areas: "section2", "section1";
@@ -490,5 +507,128 @@
   .right-fourth {
     grid-area: "section2";
     order: 1;
+  }
+  .welcome-text {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .quote-text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.47px;
+  }
+
+  .text-desc {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    width: 290px;
+  }
+
+  .touch-text {
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .mobcards {
+    display: block;
+  }
+
+  .top-left > img {
+    display: none;
+  }
+
+  .top-welcome-text {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .who-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.1px;
+  }
+
+  .second-section-bottom {
+    justify-content: flex-start;
+  }
+
+  .first-card {
+    width: 300px;
+    row-gap: 10px;
+    height: fit-content;
+  }
+
+  .second-card {
+    width: 300px;
+    row-gap: 10px;
+    height: fit-content;
+  }
+
+  .linebtwcards {
+    width: 1px;
+    height: 50px;
+    background-color: #00a9ff;
+    display: grid;
+    justify-self: center;
+  }
+
+  .third-quote {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.1px;
+  }
+  .third-left {
+    width: 350px;
+  }
+  .email-box {
+    grid-auto-flow: row;
+    row-gap: 15px;
+    width: 350px;
+    height: auto;
+  }
+  .third-right {
+    width: 350px;
+  }
+  .name-sub {
+    grid-auto-flow: row;
+    row-gap: 15px;
+    width: fit-content;
+  }
+  .mail-section-msg {
+    width: 311px;
+  }
+
+  .mail-section-msg textarea {
+    width: 275px;
+  }
+
+  .getintouch-button > button {
+    width: fit-content;
+  }
+  .frequent-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.08px;
+  }
+
+  .fourth-section {
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  .right-fourth {
+    justify-content: flex-start;
+    height: 160px;
+  }
+  .left-fourth {
+    justify-content: flex-start;
+  }
+
+  .accordion {
+    width: 80vw;
+  }
+
+  .thinking > img {
+    display: none;
   }
 }
