@@ -1,25 +1,25 @@
 .header-center {
   display: grid;
-  justify-content: center;
+  align-content: center;
   padding-bottom: 70px;
 }
 
 .full-header {
   display: grid;
   grid-auto-flow: column;
-  column-gap: 1000px;
-  justify-content: center;
+
+  justify-content: space-between;
   align-items: center;
-  max-width: fit-content;
+  width: 100vw;
   border-bottom: 1px solid #cbecfd;
-  padding: 24px 0px 24px 0px;
+  padding: 24px 24px 24px 24px;
 }
 
 .touch-button > button {
   background-color: #00a9ff;
   border: none;
   outline: none;
-  width: Hug (134px) px;
+  width: fit-content;
   height: Hug (40px) px;
   padding: 12px 24px 12px 24px;
   gap: 10px;
@@ -28,8 +28,57 @@
   color: #ffffff;
 }
 
+.moblogo {
+  display: none;
+}
+.moblogo img {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .full-header {
     place-items: center;
+    width: 100vw;
+  }
+  .site-logo {
+    display: none;
+  }
+
+  .site-logo > img {
+    display: none;
+  }
+
+  .moblogo {
+    display: block;
+  }
+  .moblogo img {
+    display: block;
+  }
+  .header-center {
+    padding: 00px;
+  }
+}
+
+@media only screen and (max-width: 601px) and (max-width: 768px) {
+  .full-header {
+    place-items: center;
+    width: 100vw;
+  }
+  .site-logo {
+    display: none;
+  }
+
+  .site-logo > img {
+    display: none;
+  }
+
+  .moblogo {
+    display: block;
+  }
+  .moblogo img {
+    display: block;
+  }
+  .header-center {
+    padding: 00px;
   }
 }
