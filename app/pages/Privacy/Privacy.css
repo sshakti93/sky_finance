@@ -42,8 +42,8 @@
   grid-auto-flow: row;
   border: 1px solid #cbecfd;
 
-  max-width: 620px;
-  max-height: 180px;
+  width: 620px;
+  height: 180px;
   padding: 24px;
   gap: 16px;
   border-radius: 10px;
@@ -64,4 +64,37 @@
 
 .privacy-defn {
   color: #777777;
+}
+
+.greater-than {
+  color: #777777;
+}
+
+@media screen and (max-width: 768px) {
+  .tos-title {
+    font-weight: 700;
+
+    font-size: 32px;
+
+    line-height: 37.47px;
+  }
+
+  .tos-desc {
+    grid-auto-flow: row;
+    height: auto;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  .grid-tos {
+    height: auto;
+    width: auto;
+  }
+
+  .tos-left {
+    height: auto;
+  }
+  .grid-desc {
+    height: auto;
+    width: auto;
+  }
 }
