@@ -6,6 +6,9 @@ export default function Headerpage() {
     <div>
       <div className="header-center">
         <div className="full-header">
+          <div className="moblogo">
+            <Image src={"/images/moblogo.svg"} alt="" width={152} height={32} />
+          </div>
           <div className="site-logo">
             <Image
               src={"/images/sitelogo.svg"}
