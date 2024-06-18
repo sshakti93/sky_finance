@@ -54,6 +54,9 @@ export default function ContactForm() {
         <div className="media-only-img">
           <Image src={"/images/mobbg.svg"} alt="" width={360} height={346} />
         </div>
+        <div className="tab-only-img">
+          <Image src={"/images/mobbg.svg"} alt="" width={560} height={546} />
+        </div>
         <div className="text-grp-one">
           <div className="welcome-text">
             <p>WELCOME TO SKY FINANCIAL</p>
@@ -68,13 +71,12 @@ export default function ContactForm() {
         <div className="text-grp-two">
           <div className="text-desc">
             <p>
-              At Sky Financial, we specialize in providing comprehensive
-              <br></br> life insurance and annuity options tailored to meet the
-              <br></br> unique needs of individuals across all age groups and
-              <br></br> income levels. As a licensed provider in all 50 states,
-              we<br></br> are dedicated to helping clients nationwide secure
-              their<br></br> financial futures with innovative insurance
-              solutions.
+              At Sky Financial, we specialize in providing comprehensive life
+              insurance and annuity options tailored to meet the unique needs of
+              individuals across all age groups and income levels. As a licensed
+              provider in all 50 states, we are dedicated to helping clients
+              nationwide secure their financial futures with innovative
+              insurance solutions.
             </p>
             <p>
               Explore our website to learn more about our products and how we
@@ -105,12 +107,30 @@ export default function ContactForm() {
             />
           </div>
           <div className="top-left">
-            <Image
-              src={"/images/cardspreview.svg"}
-              alt=""
-              width={584}
-              height={444}
-            />
+            <div className="card">
+              <Image
+                src={"/images/firstimg.svg"}
+                alt=""
+                width={584}
+                height={444}
+              />
+            </div>
+            {/* <div className="card">
+              <Image
+                src={"/images/firstimg.svg"}
+                alt=""
+                width={584}
+                height={444}
+              />
+            </div>
+            <div className="card">
+              <Image
+                src={"/images/firstimg.svg"}
+                alt=""
+                width={584}
+                height={444}
+              />
+            </div> */}
           </div>
 
           <div className="top-right">
@@ -553,6 +573,8 @@ export default function ContactForm() {
           />
         </div>
 
+        {/* IMAGE FOR MOBILE VIEW */}
+
         {/* second sub section */}
 
         <div className="right-fourth">
@@ -571,6 +593,7 @@ export default function ContactForm() {
               coverage options.
             </p>
           </div>
+
           <div className="thinking">
             <Image
               src={"/images/thinkman.svg"}
@@ -579,6 +602,14 @@ export default function ContactForm() {
               height={536}
             />
           </div>
+        </div>
+        <div className="mobthink">
+          <Image
+            src={"/images/mobthink.svg"}
+            alt=" "
+            width={312}
+            height={464}
+          />
         </div>
       </div>
     </div>
