@@ -42,8 +42,8 @@
   grid-auto-flow: row;
   border: 1px solid #cbecfd;
 
-  width: 620px;
-  height: 180px;
+  width: auto;
+  height: auto;
   padding: 24px;
   gap: 16px;
   border-radius: 10px;
@@ -70,6 +70,18 @@
   color: #777777;
 }
 
+.tos__columns {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+}
+
+.tos__firstcol {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .tos-title {
     font-weight: 700;
@@ -79,6 +91,9 @@
     line-height: 37.47px;
   }
 
+  .tos-full {
+    margin: 20px 00px 20px 00px;
+  }
   .tos-desc {
     grid-auto-flow: row;
     height: auto;
@@ -96,5 +111,9 @@
   .grid-desc {
     height: auto;
     width: auto;
+  }
+  .tos__columns {
+    grid-auto-flow: row;
+    row-gap: 20px;
   }
 }
