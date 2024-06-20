@@ -3,7 +3,7 @@ import "./Tos.css";
 import Link from "next/link";
 import Headerpage from "@/app/Components/Headerpage/Headerpage";
 
-import tosdata from "../Tosdata.json";
+import tosdata from "./Tosdata.json";
 export default function page() {
   return (
     <div className="tos-page">
