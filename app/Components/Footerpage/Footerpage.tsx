@@ -78,10 +78,10 @@ export default function Footerpage() {
           <p>&copy; 2024 SKY FINANCIAL, New York, NY. All Rights Reserved.</p>
         </div>
         <div className="right-bottom">
-          <Link href={"/pages/Tos"}>
+          <Link href={"/Pages/Tos"}>
             <p>Terms of use</p>
           </Link>
-          <Link href={"/pages/Privacy"}>
+          <Link href={"/Pages/Privacy"}>
             <p>Privacy & Other policies</p>
           </Link>
         </div>
