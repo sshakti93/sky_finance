@@ -3,7 +3,7 @@
 import Image from "next/image";
 import "./page.css";
 import Headerpage from "./Components/Headerpage/Headerpage";
-import Accordion from "./Components/Accordion/page";
+import Accordion from "./Components/accordion/page";
 import { useState } from "react";
 
 export default function ContactForm() {
@@ -115,9 +115,9 @@ export default function ContactForm() {
                 height={444}
               />
             </div>
-            {/* <div className="card">
+            <div className="card">
               <Image
-                src={"/images/firstimg.svg"}
+                src={"/images/secondimg.svg"}
                 alt=""
                 width={584}
                 height={444}
@@ -125,12 +125,12 @@ export default function ContactForm() {
             </div>
             <div className="card">
               <Image
-                src={"/images/firstimg.svg"}
+                src={"/images/thirdimg.svg"}
                 alt=""
                 width={584}
                 height={444}
               />
-            </div> */}
+            </div>
           </div>
 
           <div className="top-right">
