@@ -10,7 +10,7 @@
 
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: auto;
   border-bottom: 1px solid #cbecfd;
   padding: 24px 24px 24px 24px;
 }
