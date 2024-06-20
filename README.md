@@ -1,25 +1,32 @@
-Welcome to Sky Financial: Your Trusted Partner for Financial Security
+# Project name
+**SKY FINANCIAL**
 
-At Sky Financial, we are dedicated to helping individuals and families achieve financial security and peace of mind. Our website serves as a comprehensive resource for all your insurance and financial planning needs.
+# Description
+This application is built to cater the services of **SKY FINANCIAL**, who offer financial services to the end users.
 
-What We Offer:
+# Installation
+Must have node.js and npm
 
-Life Insurance Solutions: Explore our range of life insurance plans designed to protect your loved ones in times of need. Whether you're starting a family, planning for retirement, or looking to leave a legacy, we have policies tailored to your unique circumstances.
+#  Detailed steps to install and set up the project locally
+- git clone https://github.com/your-username/your-project-name.git
+- cd your-project-name
+- npm install
+- npm run dev
 
-Annuity Options: Secure your retirement with our annuity solutions. From immediate income options to tax-deferred savings, we provide competitive returns and personalized advice to help you make the most of your retirement savings.
+# How to start the development server
+npm run dev
 
-Tax Benefit Programs: Maximize your savings with our tax-efficient insurance and annuity programs. Take advantage of tax benefits that allow your investments to grow faster while minimizing your tax liability.
+# Steps to build the project for production
+- npm run build 
+- npm start
 
-Why Choose Sky Financial:
+# Contributing
+- Guidelines
+1. Fork the repository
+2. Create a new branch (git checkout -b feature-branch)
+3. Commit your changes (git commit -m 'Add new feature')
+4. Push to the branch (git push origin feature-branch)
+5. Create a new Pull Request
 
-Expert Guidance: Our team of experienced agents is committed to providing personalized service and tailored solutions that align with your financial goals.
-
-Innovative Solutions: We offer innovative insurance products and investment strategies to meet the evolving needs of our clients.
-
-Transparent Approach: We believe in transparency and clear communication, ensuring you understand your options and make informed decisions.
-
-Get Started Today:
-
-Ready to take control of your financial future? Contact Sky Financial to schedule a consultation with one of our experts. We're here to answer your questions, address your concerns, and help you navigate the world of insurance and investments with confidence.
-
-Experience Peace of Mind with Sky Financial. Start your journey to financial security today.
+# Maintained by:
+Shakti - siddhishakti31@gmail.com
