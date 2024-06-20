@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import "./page.css";
+import "./page.scss";
 import Headerpage from "./Components/Headerpage/Headerpage";
-import Accordion from "./Components/accordion/page";
+import Accordion from "./Components/Accordion/page";
 import { useState } from "react";
 
 export default function ContactForm() {
@@ -109,24 +109,24 @@ export default function ContactForm() {
           <div className="top-left">
             <div className="card">
               <Image
-                src={"/images/firstimg.svg"}
-                alt=""
+                src="/images/firstimg.svg"
+                alt="First Image"
                 width={584}
                 height={444}
               />
             </div>
             <div className="card">
               <Image
-                src={"/images/secondimg.svg"}
-                alt=""
+                src="/images/secondimg.svg"
+                alt="Second Image"
                 width={584}
                 height={444}
               />
             </div>
             <div className="card">
               <Image
-                src={"/images/thirdimg.svg"}
-                alt=""
+                src="/images/thirdimg.svg"
+                alt="Third Image"
                 width={584}
                 height={444}
               />
