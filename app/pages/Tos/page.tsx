@@ -27,7 +27,7 @@ export default function page() {
             Terms of use<span className="sky-inbtw">.</span>
           </p>
         </div>
-
+        {/* mapping */}
         <div className="tos__columns">
           <div className="tos__firstcol">
             {tosdata &&
