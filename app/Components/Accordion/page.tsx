@@ -9,7 +9,7 @@ interface AccordionProps {
   content: ReactNode;
 }
 
-const Accordion: FC<AccordionProps> = ({ title, content }) => {
+const Accordion = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -19,7 +19,7 @@ const Accordion: FC<AccordionProps> = ({ title, content }) => {
   return (
     <div className="accordion">
       <button className="accordionButton" onClick={toggleAccordion}>
-        {title}
+        {props.title}
         <Image
           src={"/images/accord.svg"}
           alt=""
@@ -30,7 +30,7 @@ const Accordion: FC<AccordionProps> = ({ title, content }) => {
       </button>
       {isOpen && (
         <div className="accordionContent">
-          <p>{content}</p>
+          <p>{props.content}</p>
         </div>
       )}
     </div>
