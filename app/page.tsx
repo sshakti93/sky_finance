@@ -63,7 +63,7 @@ export default function ContactForm() {
           </div>
           <div className="quote-text">
             <p>
-              Life's a Journey,<br></br> Fly Confidently<br></br> with our
+              Life &apos;s a Journey,<br></br> Fly Confidently<br></br> with our
               <br></br> Protection<span className="fullstop-quote">.</span>
             </p>
           </div>
@@ -155,9 +155,9 @@ export default function ContactForm() {
                 Our dedicated team of agents is committed to providing
                 personalized service and<br></br> innovative solutions tailored
                 to meet the unique needs of each client. We understand that
-                <br></br> every individual's financial situation is different,
-                and we take the time to listen and<br></br> recommend the best
-                options for your needs and goals.
+                <br></br> every individual &apos;s financial situation is
+                different, and we take the time to listen and<br></br> recommend
+                the best options for your needs and goals.
               </p>
               <p>
                 At Sky Financial, we are passionate about helping our clients
@@ -207,10 +207,10 @@ export default function ContactForm() {
                 </p>
                 <br></br>
                 <p>
-                  Whether you're looking for immediate income or a deferred
-                  annuity to supplement your retirement savings, our team of
-                  experts will help you navigate the options and find the right
-                  solution for your needs.
+                  Whether you &apos;re looking for immediate income or a
+                  deferred annuity to supplement your retirement savings, our
+                  team of experts will help you navigate the options and find
+                  the right solution for your needs.
                 </p>
               </div>
             </div>
@@ -238,13 +238,13 @@ export default function ContactForm() {
                 <p>
                   Comprehensive Coverage for Peace of Mind: Our life insurance
                   plans offer robust protection, ensuring you and your family
-                  can face life's uncertainties with confidence.
+                  can face life &apos;s uncertainties with confidence.
                 </p>
                 <br></br>
                 <p>
-                  Whether you're a young family just starting out or a retiree
-                  looking to leave a legacy, our experienced agents will work
-                  closely with you to understand your needs and goals, and
+                  Whether you &apos;re a young family just starting out or a
+                  retiree looking to leave a legacy, our experienced agents will
+                  work closely with you to understand your needs and goals, and
                   recommend a policy that fits your budget and lifestyle.{" "}
                 </p>
                 <br></br>
@@ -283,9 +283,9 @@ export default function ContactForm() {
                 <br></br>
                 <p>
                   Similarly, annuities offer tax-deferred growth, meaning you
-                  won't pay taxes on your earnings until you start receiving
-                  income. This allows your retirement savings to grow faster and
-                  gives you more control over when you pay taxes.
+                  won &apos;t pay taxes on your earnings until you start
+                  receiving income. This allows your retirement savings to grow
+                  faster and gives you more control over when you pay taxes.
                 </p>
                 <br></br>
                 <p>
@@ -321,7 +321,7 @@ export default function ContactForm() {
             </p>
             <p>
               {" "}
-              <br></br>We're here to answer your questions, address your
+              <br></br>We &apos;re here to answer your questions, address your
               concerns, and help you find the perfect insurance solutions for
               your needs.
             </p>
@@ -437,14 +437,14 @@ export default function ContactForm() {
                 </p>
                 <br></br>
                 <p>
-                  A general rule of thumb is to aim for coverage that's 5-10
-                  times your annual income.
+                  A general rule of thumb is to aim for coverage that &apos;s
+                  5-10 times your annual income.
                 </p>
                 <br></br>
                 <p>
-                  However, it's crucial to consider your specific circumstances,
-                  such as outstanding debts, education expenses for dependents,
-                  and future financial goals.
+                  However, it &apos;s crucial to consider your specific
+                  circumstances, such as outstanding debts, education expenses
+                  for dependents, and future financial goals.
                 </p>
                 <br></br>
                 <p>
@@ -456,7 +456,7 @@ export default function ContactForm() {
             }
           />
           <Accordion
-            title="How can I be sure I'm getting the best rates?"
+            title="How can I be sure I 'm getting the best rates?"
             content={
               <>
                 <p>
@@ -470,8 +470,8 @@ export default function ContactForm() {
                 </p>
                 <br></br>
                 <p>
-                  Our transparent approach means you'll always know you're
-                  getting the best deal available.
+                  Our transparent approach means you &apos;ll always know you
+                  &apos;re getting the best deal available.
                 </p>
                 <br></br>
                 <p>
@@ -493,7 +493,7 @@ export default function ContactForm() {
                 <br></br>
                 <p>
                   Factors such as the type of policy, your health, and the
-                  insurer's underwriting process influence the timeline.
+                  insurer &apos;s underwriting process influence the timeline.
                 </p>
                 <br></br>
                 <p>
@@ -525,9 +525,9 @@ export default function ContactForm() {
                 </p>
                 <br></br>
                 <p>
-                  It's important to review your options with your insurance
-                  provider to determine the best course of action based on your
-                  current needs and financial situation.{" "}
+                  It &apos;s important to review your options with your
+                  insurance provider to determine the best course of action
+                  based on your current needs and financial situation.{" "}
                 </p>
                 <br></br>
                 <p>
@@ -544,8 +544,8 @@ export default function ContactForm() {
               <>
                 <p>
                   To ensure your life insurance adequately protects your loved
-                  ones, start by assessing your family's financial needs and
-                  future obligations.
+                  ones, start by assessing your family &apos;s financial needs
+                  and future obligations.
                 </p>
                 <br></br>{" "}
                 <p>
@@ -566,7 +566,8 @@ export default function ContactForm() {
                 <br></br>{" "}
                 <p>
                   Rest assured, our commitment to personalized guidance ensures
-                  your loved ones are safeguarded against life's uncertainties.
+                  your loved ones are safeguarded against life &apos;s
+                  uncertainties.
                 </p>
               </>
             }
